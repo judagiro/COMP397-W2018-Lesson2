@@ -1,3 +1,5 @@
+/// <reference path="_references.ts"/>
+
 // IIFE - Immediately Invoked Function Expression
 (function(){
 
@@ -32,10 +34,7 @@
     }
 
     function Update():void {
-               
         stage.update(); // redraws the stage
-
-
     }
 
     function Main():void {
