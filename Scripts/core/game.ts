@@ -23,7 +23,7 @@
     }
 
     function Update():void {
-        helloLabel.rotation += 5;       
+        helloLabel.rotation -= 5;       
         stage.update(); // redraws the stage
 
 
@@ -33,8 +33,12 @@
         console.log("Game Started...");
 
         helloLabel = new createjs.Text("Hello, World!", "40px Consolas", "#000000");
-        helloLabel.x = 100;
-        helloLabel.y = 100;
+        helloLabel.regY = helloLabel.getMeasuredWidth() * 0.5;
+        helloLabel.regX = helloLabel.getMeasuredHeight() * 0.5;
+        
+
+        helloLabel.x = 320;
+        helloLabel.y = 240;
 
         stage.addChild(helloLabel);
     }
