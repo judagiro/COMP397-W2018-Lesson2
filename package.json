@@ -1,5 +1,5 @@
 {
-  "name": "comp397-w2018-lesson1",
+  "name": "comp397-w2018-lesson2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/judagiro/COMP397-W2018-Lesson1.git"
+    "url": "git+https://github.com/judagiro/COMP397-W2018-Lesson2.git"
   },
   "author": "Julian Giraldo <judagiro@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/judagiro/COMP397-W2018-Lesson1/issues"
+    "url": "https://github.com/judagiro/COMP397-W2018-Lesson2/issues"
   },
-  "homepage": "https://github.com/judagiro/COMP397-W2018-Lesson1#readme"
+  "homepage": "https://github.com/judagiro/COMP397-W2018-Lesson2#readme"
 }
