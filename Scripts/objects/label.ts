@@ -9,7 +9,7 @@ module objects {
             super(labelString, fontSize + " " + fontFamily, fontColour);
 
             if(isCentered){
-                this.regX = this.getMeasuredHeight() * 0.5;
+                this.regX = this.getMeasuredWidth() * 0.5;
                 this.regY = this.getMeasuredHeight() * 0.5;
             }
 
